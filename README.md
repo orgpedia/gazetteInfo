@@ -12,17 +12,17 @@ Information about gazettes published by Government of India and other state gove
 
 Here are the links to tables of States & Union Territories
 
-Certainly, here's the table with the two additional empty columns, "PDF Type" and "Notes," for your convenience:
+Currently only first 7 states are updated, working on updating the remaining ones.
 
 | S.No | State/Union Territory | State Gazette Website | Language(s) Published | PDF Type | Notes |
 |------|----------------------|-----------------------|------------------------|----------|-------|
-| 1    | Andhra Pradesh       | [Andhra Pradesh Gazette](http://www.ap.gov.in/) | Telugu, English       |          |       |
-| 2    | Arunachal Pradesh    | [Arunachal Pradesh Gazette](http://www.arunachalipr.gov.in/Gazette.htm) | English               |          |       |
-| 3    | Assam                | [Assam Gazette](https://assam.gov.in/en) | Assamese, English     |          |       |
-| 4    | Bihar                | [Bihar Gazette](http://www.gov.bih.nic.in/) | Hindi, English        |          |       |
-| 5    | Chhattisgarh         | [Chhattisgarh Gazette](http://gazette.cg.nic.in/) | Hindi, English       |          |       |
-| 6    | Goa                  | [Goa Gazette](http://www.gazettes.goa.gov.in/) | Konkani, English      |          |       |
-| 7    | Gujarat              | [Gujarat Gazette](https://gazette.gujarat.gov.in/) | Gujarati, English    |          |       |
+| 1    | Andhra Pradesh       | [Andhra Pradesh Gazette](https://apegazette.cgg.gov.in/homeEgazetteSearch.do) |  English       |   Text & Image       | Recent gazettes are there.      |
+| 2    | Arunachal Pradesh    | Arunachal Pradesh Gazette | English               |          |       |
+| 3    | Assam                | [Assam Gazette](https://dpns.assam.gov.in/documents/extraordinary-2017) | English     | Text & Image         | All available from 2017      |
+| 4    | Bihar                | [Bihar Gazette](https://www.egazette.bih.nic.in/SearchGazette.aspx) | Hindi (Ordinary), English (extra-orinary)        | Text         | 2008 years on wards, search works      |
+| 5    | Chhattisgarh         | [Chhattisgarh Gazette](https://egazette.cg.nic.in/FileSearch.aspx) | Primarily Hindi, English as well       | Text, PDF         | Availble from 2017      |
+| 6    | Goa            | [Goa Gazette](https://goaprintingpress.gov.in/search-by-date/) | English      |  Text and Image (old documents)         | Checked 1998 gazette, old ones are also available      |
+| 7    | Gujarat              | [Gujarat Gazette](https://egazette.gujarat.gov.in/GazettesSearch.aspx) | Primarily English, some sections in Gujrati    | Text           |  1991 onwards but older ones are images     |
 | 8    | Haryana              | [Haryana Gazette](http://www.haryanagazette.nic.in/) | Hindi, English       |          |       |
 | 9    | Himachal Pradesh     | [Himachal Pradesh Gazette](http://himachal.nic.in/en-IN/) | Hindi, English      |          |       |
 | 10   | Jharkhand            | [Jharkhand Gazette](https://www.jharkhand.gov.in/) | Hindi, English       |          |       |

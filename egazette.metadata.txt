@@ -1,0 +1,45 @@
+keys = [ \
+         ('gztype',           'Gazette Type'),  \
+         ('gznum',            'Gazette Number'), \
+         ('date',             'Date'), \
+         ('ministry',         'Ministry'),   \
+         ('department',       'Department'), \
+         ('subject',          'Subject'),      \
+         ('office',           'Office'), \
+         ('notification_num', 'Notification Number'), \
+         ('partnum',          'Part Number'), \
+         ('refnum',           'Reference Number'), \
+         ('linknames',        'Gazette Links'), \
+         ('url',              'Gazette Source'), \
+         ('num',              'Number'), \
+         ('gazetteid',        'Gazette ID'), \
+       ]
+
+
+       creator   = datasrcs.srcnames[src]
+       category  = datasrcs.categories[src]
+       languages = datasrcs.languages[src]
+
+
+    def get_title(self, src, metainfo):
+        category = datasrcs.categories[src]
+        title = [category]
+
+        if 'date' in metainfo:
+            title.append('%s' % metainfo['date'])
+
+        if 'gztype' in metainfo:
+            title.append(metainfo['gztype'])
+
+        if 'partnum' in metainfo:
+            partnum = metainfo['partnum']
+            if re.search(r'\bPart\b', partnum):
+                title.append(partnum)
+            else:    
+                title.append('Part %s' %partnum)
+
+        if 'gznum' in metainfo:
+            title.append('Number %s' % metainfo['gznum'])
+
+        return ', '.join(title)
+

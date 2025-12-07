@@ -23,7 +23,7 @@ Currently only first 7 states are updated, working on updating the remaining one
 | 5    | Chhattisgarh         | [Chhattisgarh Gazette](https://egazette.cg.nic.in/FileSearch.aspx) | Primarily Hindi, English as well       | Text, PDF         | Availble from 2017      |
 | 6    | Goa            | [Goa Gazette](https://goaprintingpress.gov.in/search-by-date/) | English      |  Text and Image (old documents)         | Checked 1998 gazette, old ones are also available      |
 | 7    | Gujarat              | [Gujarat Gazette](https://egazette.gujarat.gov.in/GazettesSearch.aspx) | Primarily English, some sections in Gujrati    | Text           |  1991 onwards but older ones are images     |
-| 8    | Haryana              | [Haryana Gazette](http://www.haryanagazette.nic.in/) | Hindi, English       |          |       |
+| 8    | Haryana              | [Haryana Gazette](https://haryana.gov.in/e-gazette/) | Hindi, English       |          |       |
 | 9    | Himachal Pradesh     | [Himachal Pradesh Gazette](http://himachal.nic.in/en-IN/) | Hindi, English      |          |       |
 | 10   | Jharkhand            | [Jharkhand Gazette](https://www.jharkhand.gov.in/) | Hindi, English       |          |       |
 | 11   | Karnataka            | [Karnataka Gazette](https://dpal.karnataka.gov.in/) | Kannada, English     |          |       |

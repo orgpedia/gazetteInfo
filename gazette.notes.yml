@@ -1,0 +1,156 @@
+- name:Andhra Pradesh:
+  types: 
+    - name: Extraordinary Gazette
+      url: https://apegazette.cgg.gov.in/main       
+      columns: [Department,Abstract, Date Of Publication, Gazette No, Issue No, View]
+      download: View
+
+
+    - name: Recent Weekly Gazette
+      url: https://apegazette.cgg.gov.in/main  > Recently Weekly Gazette      
+      columns: [Department, Abstract, Date Of Publication, Week No, Job No, View]
+      download: View
+
+    - name: Search
+      url: https://apegazette.cgg.gov.in/searchAllGazettes      
+      columns: [S.No., GazetteType/Part /District, Department /Issued By, Abstract/Subject,Date Of Publication, Gazette No., Issue No., Notification No., Download]
+      notes: capped to 1 year, need to play to understand various options. Lot of optional fields, no perma url
+
+  time_horizon: 2016 - to_date
+      
+  jaigyan:
+    url: https://archive.org/details/in.gazette.andhra.2023-05-03.187181    
+    last_date: 03-05-2023
+    details: both Extraordinary and Weekly are in the same topic
+
+
+- name: Arunachal Pradesh
+  types: NOTFOUND
+  jaigyan: NOTFOUND  
+    
+  
+
+- name: Assam
+  types:
+    - name: Extraordinary Gazette
+      url: https://dpns.assam.gov.in/documents/extraordinary-2024
+      columns: 'No. 67 FISH 11-2-2018-Fishery-319 Dated 12-02-64'
+      pdf_url: https://dpns.assam.gov.in/sites/default/files/swf_utility_folder/departments/directorate_printing_uneecopscloud_com_oid_3/menu/document/no._67_fish_11-2-2018-fishery-319_dated_12-02-64.pdf
+      horizon: 2017 onwards
+
+    - name: Weekly Gazette
+      url: https://dpns.assam.gov.in/documents/weekly-gazette-2017
+      horizon: 2017 onwards
+      columns: 'No. 52 Dated 27-12-17'
+  jaigyan: NOTFOUND
+
+- name: Bihar
+  types:
+    - name: extraordinary
+      columns: [Notification No.	Gazette No.	Notification Subject	Notification Date	Notification Type	Page Start	Page End ]
+      url: https://egazette.bih.nic.in/SearchNotification.aspx
+    - name: ordinary
+      
+      notes: No metadata, only, no grouping by deparment, has search
+  jaigyan:
+    url: https://archive.org/details/in.gov.bih.gazette.2023-05-01.30
+    last_date: 01-05-2023
+    details: Both are there, but not separated
+
+- name: Chhattisgarh
+  jaigyan:
+    url: https://archive.org/details/in.gazette.chhattisgarh.eo.2018-08-06.286
+    last_date: 06-08-2018
+
+- name: Goa
+  jaigyan:
+    url: https://archive.org/details/in.goa.egaz.2223-52.SIII
+    last_date: 30-03-2023
+    
+  
+- name: Gujarat
+  url: https://egazette.gujarat.gov.in/GazettesSearch.aspx
+  notes: Huge gazettes, very few files, but long 1200 +
+
+- name: Haryana
+  url: https://archive.org/details/in.gazette.haryana.2021-12-14.Extra-Ordinary_IFCC-Acct-2021
+  last_date: 2021
+  start_date: 1986
+
+- name: Himachal Pradesh
+  url:  NOTFOUND
+  jaigyan: NOTFOUND  
+
+- name: Jharkhand
+  url: https://archive.org/details/in.gazette.jharkhand.2023-02-11.77
+  last_date: 11-02-2023
+  
+- name: Karnataka
+  url: Is there till 2019
+  
+- name: Kerala
+  url: Is there 40K documents
+  last_date: 22-2-2022
+
+
+  
+
+- name: Madhya Pradesh
+ url: is there
+ last_date: may 2023
+
+- name: Maharashtra
+ url: is there
+ last_date: may 2023
+
+- name: Manipur
+  url: is there
+  last_date: 
+
+- name: Meghalaya
+  url: not there
+  jaigyan: NOTFOUND    
+
+- name: Mizoram
+  url: not there
+  jaigyan: NOTFOUND    
+
+- name: Nagaland
+  url: not there
+  jaigyan: NOTFOUND    
+
+- name: Odisha
+  url: is there (22k)
+
+  - name: Punjab
+    url: is there (4K
+
+- name: Rajasthan
+  url: not there
+  jaigyan: NOTFOUND    
+
+- name:  Sikkim
+  url: not there
+    jaigyan: NOTFOUND  
+  
+
+- name: Tamil Nadu
+  url: there (12k)
+  
+  
+
+- name: Telangana
+  url: there (3k)
+  
+- name: Tripura
+  url: noth there
+    jaigyan: NOTFOUND  
+
+- name: Uttarakhand
+  url: there (297)
+  
+- name: Uttar Pradesh
+  url: not there
+
+- name: West Bengal
+  url: noth ther
